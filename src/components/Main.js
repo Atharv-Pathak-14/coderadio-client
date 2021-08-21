@@ -8,9 +8,10 @@ const Main = props => {
   return (
     <main>
       <div className='under-header-content'>
-        <h1 className='site-title'>Welcome to Code Radio.</h1>
-        <h2 className='site-description'>24/7 music designed for coding.</h2>
+        <h1 className='site-title'>Welcome</h1>
+        <h2 className='site-description'>24/7 music</h2>
       </div>
+
       {isBrowser && (
         <>
           <div className='animation' />
